@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Filmes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="menuLateral" class="menu">
+    <button class="fechar" onclick="fecharMenu()">×</button>
+    <a href="#">Início</a>
+    <a href="#">Filmes</a>
+    <a href="#">Categorias</a>
+    <a href="#">Contato</a>
+</div>
+
+<button class="abrir-menu" onclick="abrirMenu()">☰</button>
+
+<header>
+    <div class="logo">
+        <h1>Catálogo de Filmes</h1>
+    </div>
+
+    <div class="formulario">
+        <h2>Cadastre-se</h2>
+        <form>
+            <input type="text" id="nome" name="nome" placeholder="Nome" required>
+            <input type="email" id="email" name="email" placeholder="E-mail" required>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</header>
+
+<main>
+    <section class="catalogo">
+        <article class="filme">
+            <img src="https://picsum.photos/id/1/200/300" alt="Filme 1">
+            <h2>Filme 1</h2>
+            <p>Descrição do filme 1.</p>
+        </article>
+        <article class="filme">
+            <img src="https://picsum.photos/id/2/200/300" alt="Filme 2">
+            <h2>Filme 2</h2>
+            <p>Descrição do filme 2.</p>
+        </article>
+        <article class="filme">
+            <img src="https://picsum.photos/id/3/200/300" alt="Filme 2">
+            <h2>Filme 3</h2>
+            <p>Descrição do filme 3.</p>
+        </article>
+        <article class="filme">
+            <img src="https://picsum.photos/id/4/200/300" alt="Filme 2">
+            <h2>Filme 4</h2>
+            <p>Descrição do filme 4.</p>
+        </article>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Catálogo de Filmes</p>
+</footer>
+
+</body>
+</html>
