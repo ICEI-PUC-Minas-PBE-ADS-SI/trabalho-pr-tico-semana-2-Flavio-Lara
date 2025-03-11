@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 header {
@@ -11,13 +14,12 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 .logo {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
+    text-align: center;
+    flex: 1;
 }
 
 nav ul {
@@ -40,6 +42,7 @@ nav ul li a {
     padding: 15px;
     border-radius: 5px;
     text-align: center;
+    width: 250px;
 }
 
 .formulario h2 {
@@ -48,7 +51,7 @@ nav ul li a {
 
 .formulario input {
     display: block;
-    width: 200px;
+    width: 100%;
     padding: 8px;
     margin-bottom: 10px;
     border: none;
@@ -70,6 +73,7 @@ nav ul li a {
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
+    flex-grow: 1;
 }
 
 .filme {
@@ -93,5 +97,7 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    margin-top: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
