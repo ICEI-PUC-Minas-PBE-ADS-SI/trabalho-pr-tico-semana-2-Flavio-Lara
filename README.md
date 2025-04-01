@@ -10,3 +10,7 @@ Tela desenvolvida
 
 ![image](https://github.com/user-attachments/assets/99363e58-5941-4d99-b816-c006e7a5e14b)
 
+Tela atualizada para versão responsiva
+
+![image](https://github.com/user-attachments/assets/a91b60c0-c285-441d-b168-afdb348e3f5f)
+![image](https://github.com/user-attachments/assets/41a24cd8-64d1-494f-9154-6b147807529f)
