@@ -2,6 +2,8 @@ Olá, meu Nome é Flávio Henrique Lara Santos, aluno da Puc Minas, Matrícula 7
 
 Esse catálogo de filmes é bem simples, basicamente há um cabeçalho e no canto superior direito um cadastro a ser feito pelo usuário, no conteúdo principal existem os filmes com as imagens e títulos e no rodapé ficarão algumas informações relevantes do site. Futuramente será implementado também um menu expansivo na lateral esquerda.
 
+Link da gravação da aplicação funcionando: https://jam.dev/c/1dda88ca-1026-4f51-a254-c80d2176ff1e
+
 Tela home PC
 
 ![image](https://github.com/user-attachments/assets/96097a35-d02d-4211-b705-67a6c555e220)
