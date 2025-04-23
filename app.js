@@ -3,53 +3,199 @@ const filmes = [
         "id": 1,
         "titulo": "O Poderoso Chefão",
         "descricao": "A saga da família Corleone.",
-        "conteudo": "O Poderoso Chefão é um filme de 1972 dirigido por Francis Ford Coppola. A história segue a família Corleone, uma das mais poderosas famílias da máfia italiana nos Estados Unidos. Quando o patriarca, Don Vito Corleone, é baleado, seu filho Michael precisa assumir os negócios da família e levar adiante seu legado.",
+        "conteudo": "O Poderoso Chefão é um filme de 1972 dirigido por Francis Ford Coppola...",
         "diretor": "Francis Ford Coppola",
         "elenco": "Marlon Brando, Al Pacino, James Caan",
         "ano": 1972,
         "duracao": "175 minutos",
         "genero": "Crime, Drama",
         "imagem": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
-        "avaliacao": 9.2
+        "avaliacao": 9.2,
+        "destaque": true,
+        "imagens_complementares": [
+            { "url": "https://exemplo.com/cena1.jpg", "legenda": "Cena do casamento" },
+            { "url": "https://exemplo.com/cena2.jpg", "legenda": "Michael Corleone" }
+        ]
     },
     {
         "id": 2,
         "titulo": "O Senhor dos Anéis: O Retorno do Rei",
         "descricao": "A conclusão da trilogia épica.",
-        "conteudo": "O filme conclui a jornada de Frodo e Sam para destruir o Um Anel no Monte da Perdição, enquanto Aragorn lidera as forças do bem contra o exército de Sauron na Batalha dos Campos de Pelennor. Vencedor de 11 Oscars, incluindo Melhor Filme.",
+        "conteudo": "O filme conclui a jornada de Frodo e Sam para destruir o Um Anel...",
         "diretor": "Peter Jackson",
         "elenco": "Elijah Wood, Viggo Mortensen, Ian McKellen",
         "ano": 2003,
         "duracao": "201 minutos",
         "genero": "Aventura, Fantasia",
         "imagem": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
-        "avaliacao": 9.0
+        "avaliacao": 9.0,
+        "destaque": true,
+        "imagens_complementares": [
+            { "url": "https://exemplo.com/cena3.jpg", "legenda": "Batalha final" },
+            { "url": "https://exemplo.com/cena4.jpg", "legenda": "Frodo e Sam" }
+        ]
     },
     {
         "id": 3,
         "titulo": "Interestelar",
         "descricao": "Uma jornada através do espaço e tempo.",
-        "conteudo": "Em um futuro onde a Terra está se tornando inabitável, um grupo de astronautas viaja através de um buraco de minhoca em busca de um novo lar para a humanidade. O filme explora temas de amor, sacrifício e a relatividade do tempo.",
+        "conteudo": "Em um futuro onde a Terra está se tornando inabitável...",
         "diretor": "Christopher Nolan",
         "elenco": "Matthew McConaughey, Anne Hathaway, Jessica Chastain",
         "ano": 2014,
         "duracao": "169 minutos",
         "genero": "Ficção Científica, Drama",
         "imagem": "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
-        "avaliacao": 8.6
+        "avaliacao": 8.6,
+        "destaque": true,
+        "imagens_complementares": [
+            { "url": "https://exemplo.com/cena5.jpg", "legenda": "Nave espacial" },
+            { "url": "https://exemplo.com/cena6.jpg", "legenda": "Planeta desconhecido" }
+        ]
     },
     {
         "id": 4,
         "titulo": "Parasita",
         "descricao": "Uma família pobre infiltra uma família rica.",
-        "conteudo": "A família Kim, vivendo em condições precárias, encontra uma oportunidade quando o filho começa a dar aulas de inglês para a filha de uma família rica. Aos poucos, todos os membros da família Kim conseguem se infiltrar na casa dos Park, mas segredos perigosos ameaçam revelar sua verdadeira identidade.",
+        "conteudo": "A família Kim, vivendo em condições precárias...",
         "diretor": "Bong Joon-ho",
         "elenco": "Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong",
         "ano": 2019,
         "duracao": "132 minutos",
         "genero": "Thriller, Drama",
         "imagem": "https://m.media-amazon.com/images/M/MV5BYWZjMjk3ZTItODQ2ZC00NTY5LWE0ZDYtZTI3MjcwN2Q5NTVkXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg",
-        "avaliacao": 8.5
+        "avaliacao": 8.5,
+        "destaque": false,
+        "imagens_complementares": [
+            { "url": "https://exemplo.com/cena7.jpg", "legenda": "Família Kim" },
+            { "url": "https://exemplo.com/cena8.jpg", "legenda": "Casa dos Park" }
+        ]
+    },
+    {
+        "id": 5,
+        "titulo": "Clube da Luta",
+        "descricao": "Um homem desiludido forma um clube secreto.",
+        "conteudo": "Um homem deprimido que sofre de insônia conhece um estranho...",
+        "diretor": "David Fincher",
+        "elenco": "Brad Pitt, Edward Norton, Helena Bonham Carter",
+        "ano": 1999,
+        "duracao": "139 minutos",
+        "genero": "Drama",
+        "imagem": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "avaliacao": 8.8,
+        "destaque": true,
+        "imagens_complementares": [
+            { "url": "https://exemplo.com/cena9.jpg", "legenda": "Cena do porão" },
+            { "url": "https://exemplo.com/cena10.jpg", "legenda": "Regras do clube" }
+        ]
+    },
+    {
+        "id": 6,
+        "titulo": "Pulp Fiction",
+        "descricao": "Histórias interligadas de criminosos em Los Angeles.",
+        "conteudo": "As vidas de dois assassinos da máfia, um boxeador...",
+        "diretor": "Quentin Tarantino",
+        "elenco": "John Travolta, Uma Thurman, Samuel L. Jackson",
+        "ano": 1994,
+        "duracao": "154 minutos",
+        "genero": "Crime, Drama",
+        "imagem": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "avaliacao": 8.9,
+        "destaque": false,
+        "imagens_complementares": [
+            { "url": "https://exemplo.com/cena11.jpg", "legenda": "Vincent e Mia" },
+            { "url": "https://exemplo.com/cena12.jpg", "legenda": "Jules e Vincent" }
+        ]
+    },
+    {
+        "id": 7,
+        "titulo": "O Lobo de Wall Street",
+        "descricao": "A ascensão e queda de um corretor da bolsa.",
+        "conteudo": "Jordan Belfort é um ambicioso corretor da bolsa...",
+        "diretor": "Martin Scorsese",
+        "elenco": "Leonardo DiCaprio, Jonah Hill, Margot Robbie",
+        "ano": 2013,
+        "duracao": "180 minutos",
+        "genero": "Biografia, Comédia, Crime",
+        "imagem": "https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_.jpg",
+        "avaliacao": 8.2,
+        "destaque": true,
+        "imagens_complementares": [
+            { "url": "https://exemplo.com/cena13.jpg", "legenda": "Jordan Belfort" },
+            { "url": "https://exemplo.com/cena14.jpg", "legenda": "Escritório da Stratton Oakmont" }
+        ]
+    },
+    {
+        "id": 8,
+        "titulo": "Cidade de Deus",
+        "descricao": "A vida nas favelas do Rio de Janeiro.",
+        "conteudo": "Buscapé é um jovem pobre, negro e sensível...",
+        "diretor": "Fernando Meirelles",
+        "elenco": "Alexandre Rodrigues, Leandro Firmino, Phellipe Haagensen",
+        "ano": 2002,
+        "duracao": "130 minutos",
+        "genero": "Crime, Drama",
+        "imagem": "https://m.media-amazon.com/images/M/MV5BOTMwYjc5ZmItYTFjZC00ZGQ3LTlkNTMtMjZiNTZlMWQzNzI5XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+        "avaliacao": 8.6,
+        "destaque": false,
+        "imagens_complementares": [
+            { "url": "https://exemplo.com/cena15.jpg", "legenda": "Favela" },
+            { "url": "https://exemplo.com/cena16.jpg", "legenda": "Zé Pequeno" }
+        ]
+    },
+    {
+        "id": 9,
+        "titulo": "Matrix",
+        "descricao": "Um hacker descobre a verdade sobre a realidade.",
+        "conteudo": "Um jovem programador é atormentado por estranhos pesadelos...",
+        "diretor": "Lana Wachowski, Lilly Wachowski",
+        "elenco": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss",
+        "ano": 1999,
+        "duracao": "136 minutos",
+        "genero": "Ação, Ficção Científica",
+        "imagem": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+        "avaliacao": 8.7,
+        "destaque": true,
+        "imagens_complementares": [
+            { "url": "https://exemplo.com/cena17.jpg", "legenda": "Neo" },
+            { "url": "https://exemplo.com/cena18.jpg", "legenda": "Cena da bala" }
+        ]
+    },
+    {
+        "id": 10,
+        "titulo": "Titanic",
+        "descricao": "Um romance épico no navio mais famoso do mundo.",
+        "conteudo": "Jack Dawson, um jovem artista, ganha uma passagem para o Titanic...",
+        "diretor": "James Cameron",
+        "elenco": "Leonardo DiCaprio, Kate Winslet, Billy Zane",
+        "ano": 1997,
+        "duracao": "194 minutos",
+        "genero": "Drama, Romance",
+        "imagem": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg",
+        "avaliacao": 7.8,
+        "destaque": false,
+        "imagens_complementares": [
+            { "url": "https://exemplo.com/cena19.jpg", "legenda": "Jack e Rose" },
+            { "url": "https://exemplo.com/cena20.jpg", "legenda": "Navio afundando" }
+        ]
+    },
+    {
+        "id": 11,
+        "titulo": "O Silêncio dos Inocentes",
+        "descricao": "Uma jovem agente do FBI procura um serial killer.",
+        "conteudo": "Clarice Starling, uma jovem treinanda do FBI...",
+        "diretor": "Jonathan Demme",
+        "elenco": "Jodie Foster, Anthony Hopkins, Scott Glenn",
+        "ano": 1991,
+        "duracao": "118 minutos",
+        "genero": "Crime, Thriller",
+        "imagem": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+        "avaliacao": 8.6,
+        "destaque": true,
+        "imagens_complementares": [
+            { "url": "https://exemplo.com/cena21.jpg", "legenda": "Hannibal Lecter" },
+            { "url": "https://exemplo.com/cena22.jpg", "legenda": "Clarice Starling" }
+        ]
     }
 ];
 
@@ -57,7 +203,7 @@ function carregarFilmes() {
     const container = document.getElementById('lista-filmes');
     container.innerHTML = '';
 
-    filmes.forEach(filme => {
+    filmes.splice(3, 11).forEach(filme => {
         const filmeHTML = `
       <article class="col-12 col-sm-6 col-md-4 col-lg-3">
         <div class="filme card h-100">

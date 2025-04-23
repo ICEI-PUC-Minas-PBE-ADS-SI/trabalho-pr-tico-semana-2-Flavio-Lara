@@ -153,3 +153,8 @@ footer {
 .alert {
     margin-top: 2rem;
 }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
